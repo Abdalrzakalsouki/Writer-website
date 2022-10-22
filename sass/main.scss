@@ -1,0 +1,15 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+$custom-colors: (
+  "navbar": #02111b,
+  "titels": #34092e,
+  "card-color-1": rgba(123, 16, 51, 0.7),
+  "card-color-2": #7b5d5f,
+  "text-color-1": #ffffff,
+  "section-color": #f6f6f6,
+);
+
+$theme-colors: map-merge($custom-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
