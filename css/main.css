@@ -15,7 +15,7 @@ html {
 }
 /*Title Component | BEGIN*/
 .special-title {
-  font-size: 60px;
+  font-size: 40px;
   border-bottom: 4px solid var(--title-color);
   font-weight: bold;
   color: var(--title-color);
@@ -27,21 +27,21 @@ html {
 .special-title::before {
   content: "";
   position: absolute;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   background-color: var(--title-color);
   border-radius: 100%;
   left: -20px;
-  top: 60px;
+  top: 40px;
 }
 .special-title::after {
   content: "";
   position: absolute;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   background-color: var(--title-color);
   border-radius: 100%;
-  top: 60px;
+  top: 40px;
 }
 .special-sub-title {
   margin-bottom: 80px;
@@ -57,14 +57,14 @@ html {
   background-color: var(--section-color);
 }
 .header {
-  padding: 20px;
+  padding: 10px;
 }
 .header-item {
-  font-size: 20px;
+  font-size: 18px;
 }
 @media screen and (min-width: 2000px) {
   .header-item {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 .header-item:hover {
@@ -77,7 +77,7 @@ html {
   color: black !important;
 }
 .image {
-  max-height: 900px;
+  max-height: 600px;
   width: 100%;
 }
 .image-2 {
@@ -88,7 +88,7 @@ html {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 60px;
+  font-size: 50px;
   color: white;
   opacity: 0.8;
 }
@@ -100,7 +100,7 @@ html {
 }
 @media screen and (max-width: 700px) {
   .arrows {
-    font-size: 40px;
+    font-size: 30px;
     top: 45%;
   }
   #arrow-1 {
@@ -112,7 +112,7 @@ html {
 }
 @media screen and (max-width: 300px) {
   .arrows {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 .circles {
@@ -121,18 +121,18 @@ html {
   left: 50%;
   transform: translateX(-50%);
   opacity: 0.8;
-  font-size: 33px;
+  font-size: 28px;
 }
 #cirlce-2 {
-  margin-left: -40px;
+  margin-left: -35px;
 }
 #cirlce-3 {
-  margin-left: 40px;
+  margin-left: 35px;
 }
 
 @media screen and (max-width: 700px) {
   .circles {
-    font-size: 22px;
+    font-size: 18px;
   }
   #cirlce-2 {
     margin-left: -30px;
@@ -143,7 +143,7 @@ html {
 }
 @media screen and (max-width: 300px) {
   .circles {
-    font-size: 11px;
+    font-size: 9spx;
   }
   #cirlce-2 {
     margin-left: -20px;
@@ -152,20 +152,35 @@ html {
     margin-left: 20px;
   }
 }
+@media screen and (max-width: 520px) {
+  .image {
+    display: none;
+  }
+  .circles {
+    display: none;
+  }
+  .arrows {
+    display: none;
+  }
+}
 .blog-text {
   margin: 0;
   text-align: justify;
 }
 .social-icons {
-  font-size: 30px;
+  font-size: 20px;
 }
 @media screen and (max-width: 700px) {
   .social-icons {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 @media screen and (max-width: 300px) {
   .social-icons {
     font-size: 10px;
   }
+}
+.footer-items-sm {
+  justify-content: center;
+  align-items: center;
 }

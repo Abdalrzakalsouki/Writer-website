@@ -48,3 +48,9 @@ arrows[1].addEventListener("click", () => {
     image.src = imageUrl[index];
   }
 });
+//Footer
+let toggleButton1 = document.getElementsByClassName("navbar-toggler")[1];
+toggleButton1.addEventListener("click", () => {
+  let footerUl = document.getElementById("footer-ul");
+  footerUl.classList.add("footer-items-sm");
+});
